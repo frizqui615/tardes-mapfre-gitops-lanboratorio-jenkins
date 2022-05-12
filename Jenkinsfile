@@ -1,5 +1,5 @@
 pipeline {
-<<<<<<< HEAD
+
 
 agent any
 
@@ -39,15 +39,4 @@ ls -la /
 
 }
 
-=======
-    agent any
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
->>>>>>> 2f8057fb8963f66506c515f026a46b153570cae3
-}
